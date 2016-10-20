@@ -22,30 +22,24 @@ where we stand.
 
 Clone the reviewstats repo from the openstack-infra project on github.
 
-{{< highlight bash >}}
+{% highlight bash %}
 git clone https://github.com/openstack-infra/reviewstats.git
-{{< / highlight >}}
+{% endhighlight %}
 
 I've created a venv just for this project and installed the project into it.
 
 Then I created a simple helper bash script that includes the credentials needed
-for the scripts. Pull your username and password for gerrit from `gerrit
-settings`__
+for the scripts. Pull your username and password for gerrit from [gerrit
+settings](https://review.openstack.org/#/settings/http-password)
 
-{{< highlight bash >}}
+{% highlight bash %}
 reviewers -p projects/trove.json -r10 -d 7 -u ${GERRIT_USERNAME} -P ${GERRIT_PASSWORD}
 openreviews -p projects/trove.json -u ${GERRIT_USERNAME}
-{{< / highlight >}}
+{% endhighlight %}
 
 
 After that setup, we can run this script and get the data for the last week on
 the project.
 
-We've added this data to a `google spreadsheet`__ and graphed it over the last
+We've added this data to a [google spreadsheet](http://bit.ly/1VQyg00) and graphed it over the last
 year.
-
-.. _google_spreadsheet: http://bit.ly/1VQyg00
-.. _gerrit_settings: https://review.openstack.org/#/settings/http-password
-
-__ gerrit_settings_
-__ google_spreadsheet_
