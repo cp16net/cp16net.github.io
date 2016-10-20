@@ -12,8 +12,8 @@ new GOBIN as well.
 # Operations
 
 ``` bash
-export MYGODIR=goofygo
 cd ~
+export MYGODIR=testgo
 export GOPATH=$HOME/$MYGODIR
 export GOBIN=$GOPATH/bin
 export PATH=$HOME/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/go/bin:$GOBIN
