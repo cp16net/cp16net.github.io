@@ -4,7 +4,11 @@ title: "Setting Up Local Docker Registry With UI"
 markup: "rst"
 ---
 
-Here is how to run a docker registry locally for a custom deployment, local management, or development. 
+Here is how to run a docker registry locally for a custom deployment, 
+local management, or development. 
+
+I found this useful when running Kubernetes and specifing a remote registry 
+that i could develop and push images to quickly for testing. 
 
 ## Run docker regsitry
 
