@@ -30,7 +30,7 @@ I've created a venv just for this project and installed the project into it.
 
 Then I created a simple helper bash script that includes the credentials needed
 for the scripts. Pull your username and password for gerrit from [gerrit
-settings](https://review.openstack.org/#/settings/http-password)
+settings](https://review.openstack.org/#/settings/http-password){:target="_blank"}
 
 {% highlight bash %}
 reviewers -p projects/trove.json -r10 -d 7 -u ${GERRIT_USERNAME} -P ${GERRIT_PASSWORD}
@@ -41,5 +41,5 @@ openreviews -p projects/trove.json -u ${GERRIT_USERNAME}
 After that setup, we can run this script and get the data for the last week on
 the project.
 
-We've added this data to a [google spreadsheet](http://bit.ly/1VQyg00) and graphed it over the last
+We've added this data to a [google spreadsheet](http://bit.ly/1VQyg00){:target="_blank"} and graphed it over the last
 year.
