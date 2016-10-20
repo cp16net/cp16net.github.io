@@ -10,8 +10,7 @@ slug: "openstack-trove-review-stats"
 markup: "rst"
 ---
 
-Overview
---------
+# Overview
 
 It has been helpful to look at the review stats for the OpenStack Project Trove
 over time to see the involvement of the community. During the Trove weekly team
@@ -19,8 +18,7 @@ meeting we have used the reviewstats tool to get data points and track them in
 a spreadsheet so that we can graph the commits, patches, and reviews to see
 where we stand.
 
-How-To
-------
+## How-To
 
 Clone the reviewstats repo from the openstack-infra project on github.
 
