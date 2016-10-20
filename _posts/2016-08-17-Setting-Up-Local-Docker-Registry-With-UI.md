@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Setting Up Local Docker Registry With UI"
-markup: "rst"
 ---
 
 Here is how to run a docker registry locally for a custom deployment, 

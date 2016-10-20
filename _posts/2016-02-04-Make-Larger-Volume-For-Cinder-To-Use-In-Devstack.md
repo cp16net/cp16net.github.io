@@ -1,6 +1,6 @@
 ---
-title: "Make Larger Volume For Cinder To Use In Devstack"
 layout: post
+title: "Make Larger Volume For Cinder To Use In Devstack"
 ---
 
 I needed to move the location of the volume backing file from

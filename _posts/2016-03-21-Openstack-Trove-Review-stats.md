@@ -1,13 +1,6 @@
 ---
 layout: post
 title: "Openstack Trove Review Stats"
-categories:
-    - dev
-tags:
-    - "openstack"
-    - "trove"
-slug: "openstack-trove-review-stats"
-markup: "rst"
 ---
 
 It has been helpful to look at the review stats for the OpenStack Project Trove
