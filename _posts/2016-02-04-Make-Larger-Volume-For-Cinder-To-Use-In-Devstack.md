@@ -7,6 +7,8 @@ I needed to move the location of the volume backing file from
 `/opt/stack/data` to `/mnt` but this can apply also if you just want to
 make the volume size larger without rerunning devstack.
 
+# Growing Volume
+
 Look at the list of currently used files and where they are attached.
 Then create a new volume backing file in the location of your choosing
 and mount it to the next `loopX` device.

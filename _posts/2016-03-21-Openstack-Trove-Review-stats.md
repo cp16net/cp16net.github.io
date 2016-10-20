@@ -10,8 +10,6 @@ slug: "openstack-trove-review-stats"
 markup: "rst"
 ---
 
-# Overview
-
 It has been helpful to look at the review stats for the OpenStack Project Trove
 over time to see the involvement of the community. During the Trove weekly team
 meeting we have used the reviewstats tool to get data points and track them in
