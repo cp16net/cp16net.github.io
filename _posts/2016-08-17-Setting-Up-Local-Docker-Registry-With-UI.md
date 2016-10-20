@@ -21,7 +21,7 @@ docker inspect -f '{{json .NetworkSettings.IPAddress}}' docker-registry
 ```
 
 Use the ip to set the ENV for the UI to use.
-Set the port you want to expose the UI on, here it will be http://localhost:8500
+Set the port you want to expose the UI on, here it will be [http://localhost:8500](http://localhost:8500)
 
 ``` bash
 docker run -d -e ENV_DOCKER_REGISTRY_HOST=172.17.0.2 -e ENV_DOCKER_REGISTRY_PORT=5000 -p 8500:80 --name registry-frontend konradkleine/docker-registry-frontend:v2
