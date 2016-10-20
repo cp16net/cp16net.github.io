@@ -58,5 +58,5 @@ Now you should see a larger volume size. Its pretty easy.
 
 References:
 
-[1](https://udaraliyanage.wordpress.com/2014/05/23/openstack-increase-volume-capacity/)
+\[1\] https://udaraliyanage.wordpress.com/2014/05/23/openstack-increase-volume-capacity/
 
