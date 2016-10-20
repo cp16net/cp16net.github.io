@@ -13,3 +13,5 @@ projects in the ecosystem but mainly focused on Trove.
 I have built cloud APIs in many different languages including Java, Python, and Golang.
 
 I am a geek and enjoy playing video games and reading up on technology trends.
+
+![craig]({{ site.baseurl }}/images/craig-headshot.jpg)
