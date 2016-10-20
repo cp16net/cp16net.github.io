@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a Software Engineer at heart that has a passion for learning and applying new technology.
 
-### More Information
+I have a background in cloud infrastructure, database integration, and open source development.
+I sparked an interest in Openstack and has been involved for about 5 years on various
+projects in the ecosystem but mainly focused on Trove.
 
-A place to include any other types of information that you'd like to include about yourself.
+I have built cloud APIs in many different languages including Java, Python, and Golang.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I am a geek and enjoy playing video games and reading up on technology trends.
